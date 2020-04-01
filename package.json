@@ -1,0 +1,22 @@
+{
+  "name": "scraping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard --fix",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "dotenv": "^8.2.0",
+    "mongodb": "^3.5.4",
+    "puppeteer": "^2.1.1"
+  },
+  "devDependencies": {
+    "standard": "^14.3.3"
+  }
+}
